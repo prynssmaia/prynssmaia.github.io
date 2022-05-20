@@ -13,7 +13,7 @@ module.exports = {
       'body': ["'Saira Condensed'", 'sans-serif']
     },
     backgroundImage: {
-     'hero': "url('/assets/synth-landscape.png')"
+     'hero': "url('./assets/synth-landscape.png')"
     },
     boxShadow: {
       'red': '0px 10px 24px rgba(225, 2, 52, 0.3)'

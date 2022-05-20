@@ -13420,7 +13420,7 @@ video {
 }
 
 .bg-hero {
-  background-image: url('/assets/synth-landscape.png');
+  background-image: url('./assets/synth-landscape.png');
 }
 
 .from-card {
@@ -30594,7 +30594,7 @@ video {
   }
 
   .sm\:bg-hero {
-    background-image: url('/assets/synth-landscape.png');
+    background-image: url('./assets/synth-landscape.png');
   }
 
   .sm\:from-card {
@@ -47732,7 +47732,7 @@ video {
   }
 
   .md\:bg-hero {
-    background-image: url('/assets/synth-landscape.png');
+    background-image: url('./assets/synth-landscape.png');
   }
 
   .md\:from-card {
@@ -64870,7 +64870,7 @@ video {
   }
 
   .lg\:bg-hero {
-    background-image: url('/assets/synth-landscape.png');
+    background-image: url('./assets/synth-landscape.png');
   }
 
   .lg\:from-card {
@@ -82008,7 +82008,7 @@ video {
   }
 
   .xl\:bg-hero {
-    background-image: url('/assets/synth-landscape.png');
+    background-image: url('./assets/synth-landscape.png');
   }
 
   .xl\:from-card {
@@ -99146,7 +99146,7 @@ video {
   }
 
   .\32xl\:bg-hero {
-    background-image: url('/assets/synth-landscape.png');
+    background-image: url('./assets/synth-landscape.png');
   }
 
   .\32xl\:from-card {
