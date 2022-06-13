@@ -4,74 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prynss Maia • Portfolio Card</title>
+    <title>Hello • Portfolio Project</title>
     <link href="./tailwind.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Saira+Condensed:wght@300;400;500&display=swap"
-    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
-<body class="flex items-center h-screen bg-hero bg-cover bg-center text-white lg:bg-top">
-    <!-- card -->
-    <div class="bg-card flex flex-col py-8 mx-auto items-center rounded shadow-red w-80 h-auto">
-        <a class="" href="https://github.com/prynssmaia">   
-            <img class="rounded-full h-36 hover:shadow-red ease-linear duration-300" src="https://github.com/prynssmaia.png" alt="">
-        </a>
+<body>
+    <video autoPlay loop muted playsinline class="absolute w-full h-full object-cover" src="./assets/hello.mp4"></video>
+    <div class="min-h-screen w-full px-6 md:px-14 lg:px-28">
+        <!-- Header Section -->
+        <header class="sticky top-0 z-50 py-5 lg:py-7">
+                <div>
+                    <svg class="lg:w-16 lg:h-11" width="56" height="36" viewBox="0 0 56 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5996 6.40625L1.38867 32H20.8652L11.6367 6.40625H10.5996ZM2.68945 31.0508L10.7227 8.70898L11.1094 7.47852L11.4961 8.70898L19.5117 31.0508H2.68945Z" fill="#350207"/>
+                        <line x1="28.5" y1="6" x2="28.5" y2="32" stroke="#350207"/>
+                        <path d="M44.5996 6.40625L35.3887 32H54.8652L45.6367 6.40625H44.5996ZM36.6895 31.0508L44.7227 8.70898L45.1094 7.47852L45.4961 8.70898L53.5117 31.0508H36.6895Z" fill="#350207"/>
+                    </svg>
+                </div>
+        </header>
 
-        <!-- texts -->
-        <div class="py-4 flex flex-col justify-between items-center lg:mb-2">
-            <h1 class="font-title font-semibold text-2xl md:text-xl lg:text-2xl pb-4">Prynss Maia</h1>
-            <svg class="mb-4" width="251" height="2" viewBox="0 0 251 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.5 1H250.5" stroke="url(#paint0_radial_429_352)"/>
-                <defs>
-                <radialGradient id="paint0_radial_429_352" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(125.5 0.999997) rotate(-90) scale(204.5 130.733)">
-                <stop stop-color="#E10234"/>
-                <stop offset="1" stop-color="#E10234" stop-opacity="0"/>
-                </radialGradient>
-                </defs>
-            </svg>
-            <h2 class="font-body text-xl mb-4">Studying Tailwind CSS</h2>
-            <svg class="mb-4" width="251" height="2" viewBox="0 0 251 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.5 1H250.5" stroke="url(#paint0_radial_429_352)"/>
-                <defs>
-                <radialGradient id="paint0_radial_429_352" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(125.5 0.999997) rotate(-90) scale(204.5 130.733)">
-                <stop stop-color="#E10234"/>
-                <stop offset="1" stop-color="#E10234" stop-opacity="0"/>
-                </radialGradient>
-                </defs>
-            </svg>
+        <!-- Hello Section -->
+        <div class="relative flex flex-col pt-32 lg:pt-52">
+                <h1 class="pb-5 lg:pb-8 lg:text-8xl font-text text-7xl font-bold text-transparent bg-clip-text bg-hero">
+                    Prynss Maia
+                </h1>
+                <p class="text-primary font-text font-light text-xl w-64 md:w-3/5 lg:w-2/5 lg:text-4xl lg:font-extralight">Losing myself to design and some web projects while listen to music.</p>
+                
+                <!-- Socials Section -->
+                <ul class="flex justify-between w-36 mt-36 md:mt-40 md:w-44 lg:mt-52 lg:w-48">
+                    <li class="rounded-full transform hover:scale-90 hover:shadow-pink transition-all duration-700">
+                        <a href="https://www.instagram.com/prynssmaia/" target="_blank">
+                            <svg class="lg:w-10 lg:h-10" width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22.6667 2.66663H9.33335C5.65146 2.66663 2.66669 5.65139 2.66669 9.33329V22.6666C2.66669 26.3485 5.65146 29.3333 9.33335 29.3333H22.6667C26.3486 29.3333 29.3334 26.3485 29.3334 22.6666V9.33329C29.3334 5.65139 26.3486 2.66663 22.6667 2.66663Z" stroke="#350207" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M21.3334 15.16C21.4979 16.2697 21.3084 17.403 20.7917 18.3987C20.275 19.3945 19.4575 20.2019 18.4555 20.7063C17.4535 21.2106 16.3179 21.3862 15.2104 21.2079C14.1029 21.0297 13.0797 20.5068 12.2865 19.7136C11.4932 18.9204 10.9703 17.8972 10.7921 16.7897C10.6139 15.6821 10.7894 14.5466 11.2938 13.5445C11.7981 12.5425 12.6056 11.725 13.6013 11.2084C14.5971 10.6917 15.7304 10.5022 16.84 10.6667C17.9719 10.8345 19.0198 11.362 19.8289 12.1711C20.6381 12.9802 21.1655 14.0281 21.3334 15.16Z" stroke="#350207" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23.3333 8.66663H23.3466" stroke="#350207" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="rounded-full transform hover:scale-90 hover:shadow-red transition-all duration-700">
+                        <a href="https://github.com/prynssmaia" target="_blank">
+                            <svg class="lg:w-10 lg:h-10" width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.3334 29.3333V24.1733C21.3834 23.5375 21.2975 22.8984 21.0814 22.2984C20.8653 21.6984 20.5239 21.1512 20.08 20.6933C24.2667 20.2267 28.6667 18.64 28.6667 11.36C28.6663 9.49843 27.9503 7.70826 26.6667 6.36C27.2745 4.73134 27.2315 2.93113 26.5467 1.33333C26.5467 1.33333 24.9734 0.866665 21.3334 3.30666C18.2774 2.47843 15.056 2.47843 12 3.30666C8.36002 0.866665 6.78669 1.33333 6.78669 1.33333C6.10186 2.93113 6.05888 4.73134 6.66669 6.36C5.37352 7.71826 4.65672 9.52462 4.66669 11.4C4.66669 18.6267 9.06669 20.2133 13.2534 20.7333C12.8147 21.1866 12.4764 21.7272 12.2604 22.3199C12.0445 22.9126 11.9558 23.5441 12 24.1733V29.3333M12 25.3333C5.33335 27.3333 5.33335 22 2.66669 21.3333L12 25.3333Z" stroke="#350207" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="rounded-full transform hover:scale-90 hover:shadow-blue transition-all duration-700">
+                        <a href="https://www.linkedin.com/in/prynss-maia-da-silva-689866241/" target="_blank">
+                            <svg class="lg:w-10 lg:h-10" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.2 10.8C18.473 10.8 19.6939 11.3058 20.5941 12.2059C21.4943 13.1061 22 14.327 22 15.6001V21.2001H18.8V15.6001C18.8 15.1757 18.6314 14.7687 18.3313 14.4687C18.0313 14.1686 17.6243 14.0001 17.2 14.0001C16.7756 14.0001 16.3687 14.1686 16.0686 14.4687C15.7685 14.7687 15.6 15.1757 15.6 15.6001V21.2001H12.4V15.6001C12.4 14.327 12.9057 13.1061 13.8059 12.2059C14.706 11.3058 15.9269 10.8 17.2 10.8V10.8Z" stroke="#350207" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.20001 11.6001H6V21.2001H9.20001V11.6001Z" stroke="#350207" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.6 9.20001C8.48366 9.20001 9.20001 8.48366 9.20001 7.6C9.20001 6.71635 8.48366 6 7.6 6C6.71635 6 6 6.71635 6 7.6C6 8.48366 6.71635 9.20001 7.6 9.20001Z" stroke="#350207" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22.1667 0.93335H5.83332C2.22506 0.93335 0.933319 2.22509 0.933319 5.83335V22.1667C0.933319 25.7749 2.22506 27.0667 5.83332 27.0667H22.1667C25.7749 27.0667 27.0667 25.7749 27.0667 22.1667V5.83335C27.0667 2.22509 25.7749 0.93335 22.1667 0.93335Z" stroke="#350207" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
         </div>
-
-        <!-- socials -->
-        <div class="flex justify-between gap-2">
-            <a class="bg-theme flex h-12 w-12 rounded-full" href="#">
-                <svg class="mx-auto my-auto" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8V8Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6 9H2V21H6V9Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>                    
-            </a>
-            <a class="bg-theme flex h-12 w-12 rounded-full" href="#">
-                <svg class="mx-auto my-auto" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M16 11.37C16.1234 12.2022 15.9812 13.0522 15.5937 13.799C15.2062 14.5458 14.5931 15.1514 13.8416 15.5297C13.0901 15.9079 12.2384 16.0396 11.4077 15.9059C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1902 8.22768 13.4229 8.09402 12.5922C7.96035 11.7615 8.09202 10.9099 8.47028 10.1584C8.84854 9.40685 9.45414 8.79374 10.2009 8.40624C10.9477 8.01874 11.7977 7.87658 12.63 8C13.4789 8.12588 14.2648 8.52146 14.8716 9.1283C15.4785 9.73515 15.8741 10.5211 16 11.37Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M17.5 6.5H17.51" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a>
-            <a class="bg-theme flex h-12 w-12 rounded-full" href="#">
-                <svg class="mx-auto my-auto" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23 2.99998C22.0424 3.67546 20.9821 4.19209 19.86 4.52999C19.2577 3.8375 18.4573 3.34668 17.567 3.12391C16.6767 2.90115 15.7395 2.95718 14.8821 3.28444C14.0247 3.6117 13.2884 4.19439 12.773 4.9537C12.2575 5.71302 11.9877 6.61232 12 7.52998V8.52998C10.2426 8.57555 8.50127 8.1858 6.93101 7.39543C5.36074 6.60506 4.01032 5.43862 3 3.99998C3 3.99998 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.49998C20.9991 7.22144 20.9723 6.94358 20.92 6.66999C21.9406 5.66348 22.6608 4.3927 23 2.99998V2.99998Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a>
-            <a class="bg-theme flex h-12 w-12 rounded-full" href="#">
-                <svg class="mx-auto my-auto" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M22 6L12 13L2 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </a>
-        </div>
+        
     </div>
-
 </body>
 </html>
