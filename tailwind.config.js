@@ -6,7 +6,7 @@ module.exports = {
         'primary':'#350207'
       },
       fontFamily: {
-        'text': ["'Libre Franklin'", 'sans-serif']
+        'body': ["'Libre Franklin'", 'sans-serif']
       },
       backgroundImage: {
        'portait': "url('/assets/bg-hero.jpg')",
