@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/gist/prynssmaia/f68588624e899af425859e05a606bc80/raw/9fb5eaf51d23088bb965c808572534087242986a/favicon.svg" width="100"/>
+<img src="https://raw.githubusercontent.com/gist/prynssmaia/f68588624e899af425859e05a606bc80/raw/063384a6421f676f15d76aa502986f0748336ddc/favicon.svg" width="100"/>
 </p>
 
 <h1 align="center">Hello • Portfolio Project</h3>
@@ -8,7 +8,7 @@
 
 <p align="center">
 <a href="https://prynssmaia.github.io/"target="_blank">
-<img src="https://raw.githubusercontent.com/gist/prynssmaia/1b123c767e1a29a08040e857d0e0b2fc/raw/e380b1ffe6053795da7ac4055141cfd274f74183/hello_cover.svg"/>
+<img src="https://raw.githubusercontent.com/gist/prynssmaia/5c9699a0c7fe41925e5a152460ba0f2c/raw/07573624a0b4790743b0b8a15b86139f0947a820/hello_github.svg"/>
 </a>
 </p>
 
